@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    margin: 0 5px;
+}
+.container{
+    text-align: center;
+    padding: 20px 0;
+}
+.container .header{
+    font-weight: 300;
+}
+.around{
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.around .on{
+    color:blue;
+    margin-left: 10px;
+    
+    
+}
+.around .and{
+   margin-left: 10px;
+}
+.content{
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 160px;
+    align-items: center;
+}
+.dollar{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.dollar .dollar-3{
+    padding-right: 7px;
+}
+span{
+    color: blue;
+}
+h3{
+    font-size: 25px;
+}
+.outside{
+    line-height: 1cm;
+    padding: 20px 0;
+}
+.outside p .fa-solid{
+     margin-right: 7px;
+     color: red;
+     border: 1px solid red;
+     border-radius: 20PX;
+}
+.outside p .fa-check{
+     color:rgb(20, 245, 20);
+     border: none;
+}
+.basic{
+    border: 1px groove;
+    padding: 20px 45px;
+}
+.basic-2{
+    border: 1px ridge blue;
+    padding: 20px 45px;
+}
+.basic-3{
+    border: 1px groove;
+    padding: 20px 45px;;
+}
+.btn{
+    padding: 15px 45px ;
+    cursor: pointer;
+    background:white ;
+    }
+.btn-2{
+    padding: 15px 45px ;
+    cursor: pointer;
+    background: blue;
+    color: white;
+}
+.btn-1{
+    padding: 15px 45px ;
+    cursor: pointer;
+    background: white;
+}
+@media screen and (max-width:500px){
+    .content{
+        flex-direction: column;
+    }
+    .basic{
+        margin: 10px;
+    }
+    form{
+        flex-direction: column;
+    }
+    }
+    @media screen and (max-width:700px){
+        .content{
+            flex-direction: column;
+        }
+        .basic{
+            margin: 10px;
+        }
+        form{
+            flex-direction: column;
+        }
+        }
+        @media screen and (max-width:996px){
+            .content{
+                flex-direction: column;
+            }
+            .basic{
+                margin: 10px;
+            }
+            form{
+                flex-direction: column;
+            }
+            }
+            
